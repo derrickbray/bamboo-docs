@@ -49,11 +49,16 @@ a {
 .install-box__content {
   display: flex;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1.5rem;
 }
-
 
 .install-box__link {
   display: block;
   margin-bottom: 0.5rem;
+}
+
+.note {
+  margin: 1rem 2rem;
+  padding: 0 1rem;
+  border-left: 3px solid #dddddd;
 }
