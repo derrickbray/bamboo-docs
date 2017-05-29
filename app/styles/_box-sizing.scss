@@ -3,6 +3,11 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 65rem;
+}
+
 * {
   box-sizing: inherit;
 
