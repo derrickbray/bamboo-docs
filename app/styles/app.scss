@@ -24,11 +24,36 @@ a {
 .highlight-box {
   display: flex;
   justify-content: space-around;
-  margin: 1rem 0;
+  margin: 2rem 0;
   padding: 1rem;
-  background: lightgrey;
+  background: #f4f4f4;
 }
 
 .product-content {
+  padding: 0 1rem;
   font-size: 1.2rem;
+}
+
+.install-box {
+  margin: 2rem 0;
+  background: #f4f4f4;
+}
+
+.install-box__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #e8d9f3;
+}
+
+.install-box__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+
+.install-box__link {
+  display: block;
+  margin-bottom: 0.5rem;
 }
